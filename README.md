@@ -15,5 +15,13 @@ The main difference between it and Hockey is that when the goal keeper stops the
 <li> The ball is located each time randomly on the center line </li>
 <li> The keeper each shot follows the ball to try to stop it </li>
 </ul>
-
+![First view](https://user-images.githubusercontent.com/86810702/177044472-e0ce7081-eef4-4db9-9612-ec5e59bf1ad1.jpg)
+First player Shoots !!!
+![First player](https://user-images.githubusercontent.com/86810702/177044467-dffa5219-81b2-42bd-bb2b-28569979a54a.jpg)
+And he scoooooreees !!
+![First player scores](https://user-images.githubusercontent.com/86810702/177044469-51c4a47d-15d9-493e-937e-7217d5d7c273.jpg)
+Second player getting ready to shoot
+![second player ](https://user-images.githubusercontent.com/86810702/177044470-84c33bfd-aebf-4716-9307-ef57fc0f8eb6.jpg)
+Amazing save by the keeper
+![keeper stops the ball](https://user-images.githubusercontent.com/86810702/177044473-5a7b6f84-141a-4501-98e7-bb9f3697f6f8.jpg)
 All graphics credits goes to Mina Adly
