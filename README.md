@@ -33,4 +33,9 @@ The main difference between it and Hockey is that when the goal keeper stops the
   <hr>
 </p>
 
-All graphics credits goes to Mina Adly
+<h3>Team</h3>
+<br>
+<ul>
+<li>Mina Adel</li>
+<li> Peter Wagdy (Me)</li>
+</ul>
