@@ -1,12 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-
-/**
- *
- * @author minaa
- */
 import java.awt.*;
 import java.awt.event.*;
 import java.util.*;
@@ -119,66 +110,19 @@ Toolkit.getDefaultToolkit().sync(); // I forgot to add this line of code in the 
 		ball.move(ball.xVelocity,ball.yVelocity,keeper);
 	}
 	public void checkCollision() {
-		
-		//bounce ball off top & bottom window edges
-		// if(ball.y <=0) {
-		// 	ball.setYDirection(-ball.yVelocity);
-		// }
-		// if(ball.y >= GAME_HEIGHT-BALL_DIAMETER) {
-		// 	ball.setYDirection(-ball.yVelocity);
-		// }
-		//bounce ball off paddles
 		if(ball.intersects(paddle1)) {
 			ball.xVelocity = Math.abs(ball.xVelocity);
 			ball.xVelocity++; //optional for more difficulty
-			// if(ball.yVelocity>0)
-			// 	ball.yVelocity++; //optional for more difficulty
-			// else
-			// 	ball.yVelocity--;
 			ball.setXDirection(ball.xVelocity);
 			ball.setYDirection(paddle1.getYVelocity());
-                       // ball.move(paddle1.getXVelocity(), paddle1.getYVelocity());
 		}
                 if(ball.intersects(paddle2) ) {
 			ball.xVelocity = Math.abs(ball.xVelocity);
 			ball.xVelocity++; //optional for more difficulty
-			// if(ball.yVelocity>0)
-			// 	ball.yVelocity++; //optional for more difficulty
-			// else
-			// 	ball.yVelocity--;
 			ball.setXDirection(ball.xVelocity);
 			ball.setYDirection(paddle2.getYVelocity());
-                       // ball.move(paddle1.getXVelocity(), paddle1.getYVelocity());
 		}
-		//bounce ball of keeper
 		if(ball.intersects(keeper)) {
-                    /*
-			ball.xVelocity = Math.abs(ball.xVelocity);
-			ball.xVelocity++; //optional for more difficulty
-			if(ball.yVelocity>0)
-				ball.yVelocity++; //optional for more difficulty
-			else
-				ball.yVelocity--; 
-			ball.setXDirection(-ball.xVelocity);
-			ball.setYDirection(ball.yVelocity);
-
-                    */
-                    
-                    
-                        
-                        
-                      /*  if(paddle1.getState() == 1){
-                        paddle1.done();
-                        paddle2.play();
-                        
-                        
-                        }
-                        if(paddle2.getState() == 1){
-                        paddle2.done();
-                        paddle1.play();
-                        
-
-                    }*/
                     state1 = paddle1.getState();
                     state2 = paddle2.getState();
                     
@@ -219,19 +163,6 @@ Toolkit.getDefaultToolkit().sync(); // I forgot to add this line of code in the 
 			System.out.println("Player 2: "+score.player2);
 		}
 		if(ball.x >= GAME_WIDTH-BALL_DIAMETER) {
-                        
-                        
-                        /*
-                        if(paddle1.getState() == 1){
-                        paddle1.done();
-                        paddle2.play();
-                        
-                        
-                        }
-                        if(paddle2.getState() == 1){
-                        paddle2.done();
-                        paddle1.play();
-                    }*/
                     state1 = paddle1.getState();
                     state2 = paddle2.getState();
                     

@@ -22,11 +22,6 @@ public class Keeper extends Rectangle{
 	public void setYDirection(int yDirection) {
 		yVelocity = yDirection;
 	}
-        /*
-        public int getYDirection() {
-		return yVelocity;
-	}
-	*/
 	public void move(int Yball) {
                     if(y > Yball)
                         y -= abs(yVelocity);

@@ -1,12 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-
-/**
- *
- * @author minaa
- */
 import java.awt.*;
 import java.awt.event.*;
 
@@ -42,30 +33,10 @@ public class Paddle extends Rectangle implements Runnable{
 				setXDirection(speed);
 			}
                 }
-		//	break;
-		//case 2:
-			 /*
-                        if(e.getKeyCode()==KeyEvent.VK_UP) {
-			 	setYDirection(-speed);
-			 }
-			 if(e.getKeyCode()==KeyEvent.VK_DOWN) {
-			 	setYDirection(speed);
-			 }
-                         if(e.getKeyCode()==KeyEvent.VK_LEFT) {
-			 	setXDirection(-speed);
-			 }
-			 if(e.getKeyCode()==KeyEvent.VK_RIGHT) {
-			 	setXDirection(speed);
-			 }
-			break;
-                    */
-		//}
             
 	}
 	public void keyReleased(KeyEvent e) {
            
-		//switch(id) {
-		//case 1:
                 if(state == 1){
 			if(e.getKeyCode()==KeyEvent.VK_W) {
 				setYDirection(0);
@@ -80,23 +51,6 @@ public class Paddle extends Rectangle implements Runnable{
 				setXDirection(0);
 			}
                 }
-		//	break;
-		//case 2:
-                    /*
-			 if(e.getKeyCode()==KeyEvent.VK_UP) {
-			 	setYDirection(0);
-			 }
-			 if(e.getKeyCode()==KeyEvent.VK_DOWN) {
-			 	setYDirection(0);
-			 }
-                         if(e.getKeyCode()==KeyEvent.VK_LEFT) {
-			 	setXDirection(0);
-			 }
-			 if(e.getKeyCode()==KeyEvent.VK_RIGHT) {
-			 	setDirection(0);
-			 }
-			break;*/
-		//}
             
 	}
 	public void setYDirection(int yDirection) {
